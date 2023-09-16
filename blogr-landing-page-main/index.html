@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Blogr]</title>
+  </head>
+  <body>
+    <div class="main">
+      <nav class="nav-container">
+        <div class="logo-container">
+          <svg
+            width="101"
+            height="40"
+            xmlns="http://www.w3.org/2000/svg"
+            class="logo"
+          >
+            <path
+              d="M0 30.803V1.486h10.653c1.982 0 3.695.31 5.14.93 1.446.619 2.56 1.5 3.345 2.642.785 1.142 1.177 2.484 1.177 4.026 0 1.404-.303 2.636-.909 3.695a6.48 6.48 0 01-2.56 2.498c1.487.578 2.643 1.494 3.469 2.746.826 1.253 1.239 2.732 1.239 4.439 0 1.707-.44 3.18-1.322 4.418-.88 1.239-2.12 2.202-3.716 2.89-1.596.688-3.482 1.033-5.657 1.033H0zM5.946 6.565v6.73h4.046c1.35 0 2.388-.282 3.118-.846.73-.564 1.094-1.397 1.094-2.498 0-1.101-.365-1.94-1.094-2.519-.73-.578-1.769-.867-3.118-.867H5.946zm0 19.159h4.624c1.542 0 2.732-.33 3.572-.991.84-.66 1.26-1.61 1.26-2.85 0-1.238-.42-2.188-1.26-2.848-.84-.66-2.03-.991-3.572-.991H5.946v7.68zm19.282 5.079V0h5.781v30.803h-5.78zm20.893.619c-1.624 0-3.124-.29-4.5-.867a10.94 10.94 0 01-3.593-2.416 10.96 10.96 0 01-2.374-3.654c-.564-1.404-.846-2.931-.846-4.583 0-1.652.289-3.173.867-4.563a11.354 11.354 0 012.415-3.654 10.96 10.96 0 013.634-2.436c1.39-.578 2.91-.867 4.562-.867 1.625 0 3.125.289 4.501.867a10.94 10.94 0 013.592 2.416 11.01 11.01 0 012.375 3.633c.564 1.39.846 2.911.846 4.563 0 1.651-.289 3.179-.867 4.583a11.297 11.297 0 01-2.416 3.675 10.96 10.96 0 01-3.633 2.436c-1.39.578-2.911.867-4.563.867zm.083-5.203c1.046 0 1.982-.275 2.808-.825.825-.551 1.48-1.301 1.96-2.25.483-.95.723-2.03.723-3.242 0-1.211-.24-2.292-.722-3.241-.482-.95-1.136-1.7-1.961-2.25-.826-.551-1.762-.826-2.808-.826-1.046 0-1.982.275-2.808.825-.826.55-1.48 1.301-1.961 2.25-.482.95-.723 2.03-.723 3.242 0 1.211.241 2.292.723 3.241.482.95 1.135 1.7 1.961 2.25.826.551 1.762.826 2.808.826zm24.155 3.964a9.13 9.13 0 01-3.86-.826 9.492 9.492 0 01-3.118-2.291c-.881-.977-1.57-2.12-2.065-3.427-.495-1.308-.743-2.719-.743-4.233 0-1.569.255-3.02.764-4.356a10.614 10.614 0 012.147-3.489 10.174 10.174 0 013.22-2.333c1.225-.564 2.554-.846 3.985-.846 1.404 0 2.67.282 3.799.846a7.402 7.402 0 012.807 2.457l.124-2.684h5.327v19.2c0 1.68-.269 3.207-.805 4.584-.537 1.376-1.301 2.56-2.292 3.55a10.231 10.231 0 01-3.53 2.292c-1.363.537-2.87.805-4.522.805-1.624 0-3.083-.254-4.376-.764a10.468 10.468 0 01-3.386-2.126 10.035 10.035 0 01-2.271-3.18L67.097 32a5.452 5.452 0 001.92 1.879c.784.454 1.672.681 2.663.681 1.074 0 2.003-.24 2.787-.723.785-.481 1.397-1.156 1.838-2.023.44-.867.66-1.879.66-3.035v-1.775a7.793 7.793 0 01-2.828 2.333c-1.143.564-2.402.846-3.778.846zm1.404-5.12c1.018 0 1.92-.254 2.704-.764a5.556 5.556 0 001.879-2.064c.468-.867.702-1.851.702-2.952 0-1.102-.234-2.086-.702-2.953a5.556 5.556 0 00-1.879-2.064c-.784-.51-1.686-.764-2.704-.764-1.019 0-1.92.255-2.705.764a5.556 5.556 0 00-1.879 2.064c-.468.867-.702 1.851-.702 2.953 0 1.1.234 2.085.702 2.952a5.556 5.556 0 001.88 2.064c.784.51 1.685.764 2.704.764zm15.607 5.74V9h5.327l.206 3.304c.55-1.157 1.294-2.044 2.23-2.664.936-.62 2.037-.929 3.303-.929.386 0 .77.035 1.156.103.386.07.73.159 1.033.269l-.62 5.698a4.361 4.361 0 00-.929-.227 7.495 7.495 0 00-.97-.062c-1.597 0-2.822.489-3.675 1.466-.853.977-1.28 2.36-1.28 4.15v10.694h-5.78z"
+              fill=""
+              fill-rule=""
+            />
+          </svg>
+
+          <div class="mobile-nav">
+            <img src="./images/icon-close.svg" alt="" class="close" />
+            <ul>
+              <li><a href="#">products</a></li>
+              <li><a href="#">company</a></li>
+              <li><a href="#">connect</a></li>
+            </ul>
+          </div>
+          <div class="menu-bar">
+            <ul>
+              <li>
+                <a href="#">product</a>
+                <div class="sub-menu">
+                  <ul>
+                    <li><a href="#">drones</a></li>
+                    <li><a href="#">laptops</a></li>
+                    <li><a href="#">game systems</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">company</a></li>
+              <li>
+                <a href="#">connect</a>
+                <div class="sub-menu">
+                  <ul>
+                    <li><a href="#">twitter</a></li>
+                    <li><a href="#">tik-tok</a></li>
+                    <li><a href="#">instagram</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- <-- start of nav from the right-->
+        <div class="login-container">
+          <a class="login" href="#">Login</a>
+          <a class="sign-up" href="#">sign up</a>
+          <img src="./images/icon-hamburger.svg" alt="" class="toggle" />
+        </div>
+      </nav>
+      <section class="cta">
+        <h1>A modern publishing platform</h1>
+        <p>Grow your audience and build your online platform</p>
+        <div class="btn-container">
+          <a href="#" class="cta-start">Start for free</a>
+          <a href="#" class="cta-learn">learn more</a>
+        </div>
+      </section>
+    </div>
+
+    <h1 class="design-title">designed for the future</h1>
+    <section class="design">
+      <div class="design-content">
+        <h2 class="design-header">introducing an extensible editor</h2>
+        <p class="design-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis
+          nam veritatis. Error ea eum culpa a aut veritatis suscipit officiis
+          aperiam? In nihil veniam recusandae fuga, obcaecati aperiam
+          dignissimos placeat soluta facilis itaque tempora quas, deserunt
+          doloremque quis cum?
+        </p>
+        <h2 class="design-header">Robust content management</h2>
+        <p class="design-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+          similique facere consequatur. Iusto ullam illum, quo quas inventore
+          reiciendis fugiat, dicta doloremque quibusdam porro recusandae
+          deserunt dolores itaque sit rerum repellat alias suscipit. Quasi
+          delectus tempore modi, aut libero deserunt!
+        </p>
+      </div>
+
+      <div class="img-container">
+        <img
+          src="./images/illustration-editor-desktop.svg"
+          alt=""
+          class="desktop-circle"
+        />
+        <svg
+          width="406"
+          height="331"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          class="mob-circle"
+        >
+          <defs>
+            <linearGradient x1="0%" y1="27.846%" x2="100%" y2="72.154%" id="c">
+              <stop stop-color="#FF8F71" offset="0%" />
+              <stop stop-color="#FF3E55" offset="100%" />
+            </linearGradient>
+            <linearGradient x1="0%" y1="41.623%" x2="100%" y2="58.377%" id="e">
+              <stop stop-color="#FF8F71" offset="0%" />
+              <stop stop-color="#FF3E55" offset="100%" />
+            </linearGradient>
+            <filter
+              x="-21.5%"
+              y="-23%"
+              width="142.9%"
+              height="164.5%"
+              filterUnits="objectBoundingBox"
+              id="b"
+            >
+              <feOffset dy="20" in="SourceAlpha" result="shadowOffsetOuter1" />
+              <feGaussianBlur
+                stdDeviation="20"
+                in="shadowOffsetOuter1"
+                result="shadowBlurOuter1"
+              />
+              <feColorMatrix
+                values="0 0 0 0 0.421821759 0 0 0 0 0.554338424 0 0 0 0 0.893710371 0 0 0 0.243444056 0"
+                in="shadowBlurOuter1"
+              />
+            </filter>
+            <rect id="a" x="0" y="0" width="326" height="217" rx="5" />
+          </defs>
+          <g fill="none" fill-rule="evenodd">
+            <g transform="translate(40)">
+              <rect
+                fill="#2D2E40"
+                opacity=".08"
+                transform="matrix(1 0 0 -1 0 329)"
+                x="52"
+                y="53"
+                width="223"
+                height="223"
+                rx="111.5"
+              />
+              <rect
+                stroke="#2D2E40"
+                opacity=".5"
+                transform="matrix(1 0 0 -1 0 326)"
+                x="37.5"
+                y="37.5"
+                width="251"
+                height="251"
+                rx="125.5"
+              />
+              <rect
+                stroke="#2D2E40"
+                opacity=".25"
+                transform="matrix(1 0 0 -1 0 326)"
+                x=".5"
+                y=".5"
+                width="325"
+                height="325"
+                rx="162.5"
+              />
+            </g>
+            <g transform="translate(40 54)">
+              <mask id="d" fill="#fff"><use xlink:href="#a" /></mask>
+              <g fill-rule="nonzero">
+                <use fill="#000" filter="url(#b)" xlink:href="#a" />
+                <use fill="url(#c)" xlink:href="#a" />
+              </g>
+              <path
+                d="M3 63.525h320a3 3 0 013 3V214a3 3 0 01-3 3H3a3 3 0 01-3-3V66.525a3 3 0 013-3z"
+                fill="#2D2E40"
+                fill-rule="nonzero"
+                mask="url(#d)"
+              />
+              <rect
+                fill="#FFF"
+                fill-rule="nonzero"
+                mask="url(#d)"
+                x="45.967"
+                y="24.246"
+                width="68.95"
+                height="69.707"
+                rx="3"
+              />
+              <ellipse
+                fill="#2D2E40"
+                mask="url(#d)"
+                cx="80.442"
+                cy="59.402"
+                rx="19.959"
+                ry="20.003"
+              />
+              <rect
+                fill="#FFF"
+                fill-rule="nonzero"
+                mask="url(#d)"
+                x="126.408"
+                y="24.246"
+                width="153.625"
+                height="165.478"
+                rx="3"
+              />
+            </g>
+            <path
+              d="M106 144c23.871-37.394 41.526-57.6 52.964-60.62 17.158-4.53 12.04 42.374 36.744 36.938 24.705-5.436 27.717-52.994 46.403-55.234 18.685-2.241 28.57 41.257 36.733 45.264 5.441 2.672 12.16-3.105 20.156-17.332"
+              stroke="url(#e)"
+              stroke-width="8"
+              stroke-linecap="round"
+              transform="translate(40 54)"
+            />
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="art">
+      <!-- <img src="/images/illustration-phones.svg" alt="" class="phone" /> -->
+      <div class="right-column">
+        <div class="right-content">
+          <h1>state of the art infrastructure</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            culpa asperiores, quisquam expedita odio aperiam perferendis
+            exercitationem, delectus quam esse maiores, quibusdam eveniet
+            quaerat dignissimos repudiandae dolorem rerum excepturi
+            laboriosam?Lorem ipsum dolor sit amet Lorem.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="laptop">
+      <div class="laptop-container">
+        <img
+          src="./images/illustration-laptop-desktop.svg"
+          alt=""
+          class="laptop-desktop"
+        />
+        <img
+          src="./images/illustration-laptop-mobile.svg"
+          alt=""
+          class="laptop-mobile"
+        />
+      </div>
+
+      <div class="laptop-content">
+        <h1 class="free-title">free, open, simple</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+          quibusdam accusantium, nulla hic dignissimos repudiandae, odit iure
+          pariatur fugit labore qui quaerat facere alias beatae natus dolor
+          asperiores dolorem voluptatem. Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Ipsum, nihil! Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Itaque, ea! Lorem ipsum dolor sit amet.
+        </p>
+        <h1 class="power-title">powerful tooling</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+          aliquid at, ipsam alias voluptatum ipsum reiciendis est id aspernatur
+          explicabo iure, veritatis vitae consequatur nesciunt neque minima!
+          Est, voluptatum asperiores. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Modi, explicabo.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="four-column-grid">
+        <img
+          src="./images/logo.svg"
+          alt=""
+          width="80"
+          height="35"
+          class="img-logo"
+        />
+
+        <div class="column">
+          <span>Product</span>
+          <ul>
+            <li>Overview</li>
+            <li>pricing</li>
+            <li>marketplace</li>
+            <li>features</li>
+            <li>intergration</li>
+          </ul>
+        </div>
+        <div class="column">
+          <span>company</span>
+          <ul>
+            <li>about</li>
+            <li>team</li>
+            <li>blogs</li>
+            <li>careers</li>
+          </ul>
+        </div>
+        <div class="column">
+          <span>connect</span>
+          <ul>
+            <li>contact</li>
+            <li>newsletter</li>
+            <li>linkedIn</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
