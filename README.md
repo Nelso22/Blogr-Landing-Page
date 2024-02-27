@@ -7,7 +7,7 @@
 
 ## Description
 
- A landing page challenge for a fictional company that I found on [frontendmentor](https://www.frontendmentor.io/). The website is also responsive for all screensizes.
+ A landing page design for a fictional company that I created. The website is also responsive for all screensizes.
 
  ## Built With
 
